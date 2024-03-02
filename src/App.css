@@ -1,0 +1,110 @@
+
+.App {
+  width: 100%;
+  background: linear-gradient(183deg,
+   rgba(173, 188, 159, 0.70) 54.82%,
+   rgba(18, 55, 42, 0.06) 133.55%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*Homepage*/
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap:20px;
+}
+
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #F4F4F4;
+}
+
+.Navbar_FaChevronLeft_Icon {
+  margin: 92px 10px 0;
+}
+.Components_Titles {
+  margin-top: 90px;
+  color: #436850;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+#Navbar_Icon {
+  margin-top: 50px;
+  color: #436850;
+  width: 115px; 
+  height: 115px; 
+  background: #F4F4F4; 
+  border-radius: 50%;
+  /* devo utilizzare flexbox per posizionare l'icona al centro */
+  display: flex; 
+  justify-content: center; /* Centra l'icona orizzontalmente */
+  align-items: center; /* Centra l'icona verticalmente */
+}
+
+.Navbar_FaHome_Icon {
+  width: 40px;
+  height: 40px;
+}
+
+hr {
+  border: 1px solid #F4F4F4F4;
+  width: 90%;
+}
+
+h6 {
+  color: #F4F4F4;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -15px;
+}
+
+.Chatcloud_Homepage {
+
+  background-color: #ADBC9F;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px; /* Imposta la larghezza massima della vignetta */
+  margin: 20px;
+}
+
+.Chatcloud_Homepage::before {
+  content: "";
+
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #000000 transparent transparent;
+  position: relative;
+  top: 120px; /* Posiziona la punta al centro verticalmente */
+  left: -25px; /* Posiziona la punta all'estremità sinistra */
+}
+
+.frame {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap:10px;
+}
+  
+.chatte_homepage_form {
+  display: flex;
+  row-gap: 20px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.Chatcloud_Homepage_Input{
+  padding-top: 40px;
+  margin-top: 20px;
+}
+
+
